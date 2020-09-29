@@ -1,0 +1,14 @@
+.regDesign {
+    height: 695px;
+    width: 100%;
+    background-color: cadetblue;
+    
+  }
+  .formDesign{
+    margin: auto;
+    background: black;
+    border-radius: 10px;
+    width: 500px;
+    border: 2px solid black;
+    box-shadow: 5px 5px  rgb(75, 55, 97);
+  }

@@ -1,0 +1,12 @@
+.loginDesign{
+    background: rgb(171, 176, 180);
+    height: 695px;
+}
+.formDesigns{
+    margin: auto;
+    background: slategray;
+    border-radius: 10px;
+    width: 500px;
+    border: 2px solid black;
+    box-shadow: 5px 10px 8px rgb(7, 6, 6);
+  }

@@ -1,0 +1,12 @@
+.userDesign{
+    background: rgb(59, 58, 59);
+    height: 695px;
+}
+.userformDesign{
+    margin: auto;
+    background: rgb(100, 128, 105);
+    border-radius: 10px;
+    width: 500px;
+    border: 2px solid black;
+    box-shadow: 5px 10px 8px rgb(7, 6, 6);
+  }

@@ -1,0 +1,14 @@
+ .App { 
+  text-align: center;
+  background-color: darkgray;
+  height: 695px;
+}
+
+.btnDesign {
+  margin-top: 50px;
+  width: 100px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 9px rgb(42, 41, 41);
+}
