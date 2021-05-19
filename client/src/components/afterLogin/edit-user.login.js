@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../cssDesign/userlogin.css';
 import axios from 'axios'
+import {Link} from 'react-router-dom'
 
 
 class EditUser extends Component {
@@ -90,6 +91,9 @@ class EditUser extends Component {
                                 value="UPDATE"
                                 className="btn btn-info"
                             />
+                            <Link to="/userlogin">
+                                    <button className="btn btn-dark ml-5">create info</button>
+                            </Link>
                         </div>
                     </form>
                 </div>

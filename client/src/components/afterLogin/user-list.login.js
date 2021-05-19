@@ -60,6 +60,12 @@ class UserList extends Component {
                             <th>Name</th>
                             <th>Email</th>
                             <th>Actions</th>
+                            <th>
+                                <Link to="/userlogin">
+                                    <button className="btn btn-dark">create info</button>
+                                </Link>
+                            </th>
+                            
                         </tr>
                     </thead>
                         
