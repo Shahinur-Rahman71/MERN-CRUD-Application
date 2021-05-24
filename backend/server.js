@@ -21,6 +21,10 @@ app.use('/register', registerRouter);
 app.use('/login', loginRouter);
 app.use('/login/user', userRouter);
 
+// for heroku
+if(process.env.NODE_ENV === 'production') {
+    app.use(express.static('client/build'))
+}
 
 app.listen(port, ()=> {
     console.log(`Server is running on port ${port}`);
